@@ -19,16 +19,6 @@
 ## 📑 Índice
 
 - [Introdução](#introdução)
-- [Objetivo](#objetivo)
-- [Arquitetura da Solução](#arquitetura-da-solução)
-- [Setup](#setup)
-- [Testes](#testes)
-- [Notebook Completo](#notebook-completo)
-- [Funcionalidades do MVP](#funcionalidades-do-mvp)
-- [Dependências e Versões das Ferramentas](#dependências-e-versões-das-ferramentas)
-- [Licença](#licença)
-- [Contribuição](#contribuição)
-
 
 ## 📌 Contexto
 
@@ -56,12 +46,6 @@ Python
 Google Colab
 Power BI
 
-
-## 🛠️ Ferramentas Utilizadas
-
-Python
-Google Colab
-Power BI
 
 ## 🛠️ Pipeline de Dados
 
