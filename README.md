@@ -31,14 +31,6 @@
 9. [Notebook da Análise](#-notebook-da-análise)
 10. [Autora](#-autora)
 
-## 📌 Contexto
-
-A **LH Nautical** é uma empresa de varejo náutico, líder em peças e acessórios do segmento, de alto padrão que enfrenta desafios comuns ao crescimento acelerado: falta de visibilidade sobre a rentabilidade real por categoria e necessidade de uma gestão de estoque baseada em dados, saindo do modelo de "intuição" para o modelo preditivo.
-
-Este projeto foi desenvolvido como parte de um desafio de Data Analytics/Data Science, com o objetivo de analisar dados do negócio e gerar insights estratégicos que apoiem a tomada de decisão. A análise contempla desde o entendimento do problema de negócio até a construção de modelos preditivos de demanda e sistemas de recomendação baseados em Inteligência Artificial, unindo rigor estatístico à visão de crescimento de negócio.
-
-> **Nota: A LH NAUTICAL é uma empresa fictícia criada para fins de estudo de caso e desenvolvimento de competências em Data Analytics/Data Science.
-
 
 ## 🎯 Objetivo do Projeto
 
@@ -46,6 +38,15 @@ Desenvolver um diagnóstico profundo da saúde financeira da empresa e implement
 * Identificar e mitigar perdas financeiras.;
 * Otimizar o giro de estoque de produtos críticos;
 * Alavancar vendas através de recomendações personalizadas.
+
+
+## 📌 Contexto
+
+A **LH Nautical** é uma empresa de varejo náutico, líder em peças e acessórios do segmento, de alto padrão que enfrenta desafios comuns ao crescimento acelerado: falta de visibilidade sobre a rentabilidade real por categoria e necessidade de uma gestão de estoque baseada em dados, saindo do modelo de "intuição" para o modelo preditivo.
+
+Este projeto foi desenvolvido como parte de um desafio de Data Analytics/Data Science, com o objetivo de analisar dados do negócio e gerar insights estratégicos que apoiem a tomada de decisão. A análise contempla desde o entendimento do problema de negócio até a construção de modelos preditivos de demanda e sistemas de recomendação baseados em Inteligência Artificial, unindo rigor estatístico à visão de crescimento de negócio.
+
+> **Nota: A LH NAUTICAL é uma empresa fictícia criada para fins de estudo de caso e desenvolvimento de competências em Data Analytics/Data Science.
 
 
 ## ❓ Problema de Negócio
@@ -109,7 +110,7 @@ Com base no diagnóstico de dados, as seguintes ações são recomendadas para o
 
 O desenvolvimento técnico completo, incluindo a limpeza dos dados, criação dos gráficos de rentabilidade e o código do sistema de recomendação (Cosseno), pode ser acessado no link abaixo:
 
-* [Acesse o Notebook (Google Colab/Jupyter)](Disponível em breve)
+* 👉 [Visualizar Notebook](https://github.com/MicheleFarias/predictive-insights-lhnautical/blob/main/Analise_Tecnica_LH_Nautical.ipynb)
 
 ## 👩‍💻 Autora
 
