@@ -1,24 +1,35 @@
 <h1 align="center">
-  📊 Projeto de Data Analytics
+  📊 Data Science & Analytics: Otimização de Estoque e Recuperação de Lucro na LH Nautical
 </h1>
 
 <div align="center">
 
 ![Python](https://img.shields.io/badge/python-3.11-blue)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black)
-![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?logo=googlecolab&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-013243?logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c)
 ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?logo=scikit-learn&logoColor=white)
 ![Git](https://img.shields.io/badge/git-F05032?logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-181717?logo=github&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?logo=googlecolab&logoColor=white)
+
+
 
 </div>
 
 ## 📑 Índice
-
-- [Introdução](#introdução)
+1. [Contexto](#-contexto)
+2. [Objetivo do Projeto](#-objetivo-do-projeto)
+3. [Problema de Negócio](#-problema-de-negócio)
+4. [Sobre a Base de Dados](#-sobre-a-base-de-dados)
+5. [Pipeline de Dados](#-pipeline-de-dados)
+6. [Ferramentas Utilizadas](#-ferramentas-utilizadas)
+7. [Principais Insights](#-principais-insights)
+8. [Recomendações Estratégicas](#-recomendações-estratégicas)
+9. [Notebook da Análise](#-notebook-da-análise)
+10. [Autora](#-autora)
 
 ## 📌 Contexto
 
@@ -26,7 +37,7 @@ A **LH Nautical** é uma empresa de varejo náutico, líder em peças e acessór
 
 Este projeto foi desenvolvido como parte de um desafio de Data Analytics/Data Science, com o objetivo de analisar dados do negócio e gerar insights estratégicos que apoiem a tomada de decisão. A análise contempla desde o entendimento do problema de negócio até a construção de modelos preditivos de demanda e sistemas de recomendação baseados em Inteligência Artificial, unindo rigor estatístico à visão de crescimento de negócio.
 
-Nota: A LH Nautical é uma empresa fictícia criada para fins de estudo de caso e desenvolvimento de competências em análise/ciência de dados.
+> **Nota: A LH NAUTICAL é uma empresa fictícia criada para fins de estudo de caso e desenvolvimento de competências em Data Analytics/Data Science.
 
 
 ## 🎯 Objetivo do Projeto
@@ -41,6 +52,17 @@ Desenvolver um diagnóstico profundo da saúde financeira da empresa e implement
 
 O principal desafio identificado foi a **erosão da margem de lucro**. Embora a empresa apresente um faturamento expressivo em meses de pico (Julho e Outubro), a análise revelou um déficit operacional oculto em categorias core. O caso mais crítico é a categoria de **Propulsão**, onde produtos específicos operavam com um percentual de perda superior a 60%. Esse cenário indica que o volume de vendas estava, na verdade, acelerando o prejuízo acumulado em vez de gerar rentabilidade real.
 
+## 📊 Sobre a Base de Dados
+O conjunto de dados utilizado neste projeto compreende o ecossistema de operações da LH Nautical, consolidando informações de diferentes fontes para uma visão 360º do negócio:
+
+* **Vendas & Transações:** Histórico detalhado de pedidos, datas de faturamento e valores brutos.
+* **Catálogo de Produtos:** Especificações técnicas, categorias (Propulsão, Eletrônicos, Ancoragem) e custos de aquisição.
+* **Estoque e Logística:** Movimentação de itens críticos, com foco especial no monitoramento do Motor Yamaha 155HP.
+* **Clientes:** Perfis de consumo que permitiram a modelagem do sistema de recomendação por similaridade.
+
+> **Nota de Privacidade:** Os dados foram anonimizados e tratados para garantir a segurança das informações, sendo utilizados estritamente para fins de análise técnica e estratégica neste desafio
+
+
 
 ## 🛠️ Ferramentas Utilizadas
 
@@ -50,7 +72,7 @@ O principal desafio identificado foi a **erosão da margem de lucro**. Embora a 
 * **Scikit-Learn:** Implementação de algoritmos de Machine Learning (Similaridade de Cosseno).
 
 
-## 🛠️ Pipeline de Dados
+## ⚙️ Pipeline de Dados
 
 O fluxo de trabalho foi estruturado em 5 etapas principais para garantir a integridade dos insights:
 
