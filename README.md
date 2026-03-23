@@ -22,40 +22,41 @@
 
 ## 📌 Contexto
 
-Este projeto foi desenvolvido como parte de um desafio de Data Analytics com o objetivo de analisar dados do negócio e gerar insights estratégicos que apoiem a tomada de decisão.
-A análise contempla desde o entendimento do problema até a construção de dashboards interativos e recomendações orientadas por dados.
+A **LH Nautical** é uma empresa de varejo náutico, líder em peças e acessórios do segmento, de alto padrão que enfrenta desafios comuns ao crescimento acelerado: falta de visibilidade sobre a rentabilidade real por categoria e necessidade de uma gestão de estoque baseada em dados, saindo do modelo de "intuição" para o modelo preditivo.
+
+Este projeto foi desenvolvido como parte de um desafio de Data Analytics/Data Science, com o objetivo de analisar dados do negócio e gerar insights estratégicos que apoiem a tomada de decisão. A análise contempla desde o entendimento do problema de negócio até a construção de modelos preditivos de demanda e sistemas de recomendação baseados em Inteligência Artificial, unindo rigor estatístico à visão de crescimento de negócio.
 
 
 ## 🎯 Objetivo do Projeto
 
-Compreender o problema de negócio
-Explorar e tratar os dados
-Identificar padrões e oportunidades
-Construir visualizações estratégicas
-Gerar recomendações acionáveis
+Desenvolver um diagnóstico profundo da saúde financeira da empresa e implementar modelos de inteligência artificial que auxiliem na tomada de decisão estratégica, focando em:
+* Identificar e mitigar perdas financeiras.;
+* Otimizar o giro de estoque de produtos críticos;
+* Alavancar vendas através de recomendações personalizadas.
 
 
 ## ❓ Problema de Negócio
 
-Descrever aqui qual é a dor da empresa
+O principal desafio identificado foi a **erosão da margem de lucro**. Embora a empresa apresente um faturamento expressivo em meses de pico (Julho e Outubro), a análise revelou um déficit operacional oculto em categorias core. O caso mais crítico é a categoria de **Propulsão**, onde produtos específicos operavam com um percentual de perda superior a 60%. Esse cenário indica que o volume de vendas estava, na verdade, acelerando o prejuízo acumulado em vez de gerar rentabilidade real.
 
 
 ## 🛠️ Ferramentas Utilizadas
 
-Python
-Google Colab
-Power BI
+* **Python:** Linguagem principal para manipulação e análise de dados.
+* **Pandas & Numpy:** Limpeza, transformação e cálculos estatísticos.
+* **Matplotlib & Seaborn:** Visualização de dados e criação de gráficos executivos.
+* **Scikit-Learn:** Implementação de algoritmos de Machine Learning (Similaridade de Cosseno).
 
 
 ## 🛠️ Pipeline de Dados
 
-Entendimento do negócio
-Coleta / carregamento dos dados
-Limpeza e tratamento
-Análise exploratória
-Modelagem analítica
-Visualização em dashboard
-Geração de insights
+O fluxo de trabalho foi estruturado em 5 etapas principais para garantir a integridade dos insights:
+
+1. **Extração e Limpeza:** Tratamento de valores nulos, conversão de tipos de dados e padronização de categorias;
+2. **Exploração (EDA):** Identificação de outliers, sazonalidade de vendas e correlações entre produtos;
+3. **Engenharia de Atributos:** Criação de métricas de negócio como Prejuízo Acumulado, Ticket Médio e Percentual de Perda;
+4. **Modelagem Preditiva:** Desenvolvimento do modelo Baseline para controle de estoque (Yamaha 155HP) e motor de recomendação via Similaridade de Cosseno;
+5. **Storytelling & Insights:** Tradução dos dados técnicos em recomendações estratégicas para a diretoria.
 
 
 ## 📈 Principais Insights
