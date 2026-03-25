@@ -51,7 +51,7 @@ Este projeto foi desenvolvido como parte de um desafio de Data Analytics/Data Sc
 
 ## ❓ Problema de Negócio
 
-O principal desafio identificado foi a **erosão da margem de lucro**. Embora a empresa apresente um faturamento expressivo em meses de pico (Julho e Outubro), a análise revelou um déficit operacional oculto em categorias core. O caso mais crítico é a categoria de **Propulsão**, onde produtos específicos operavam com um percentual de perda superior a 60%. Esse cenário indica que o volume de vendas estava, na verdade, acelerando o prejuízo acumulado em vez de gerar rentabilidade real.
+O principal desafio identificado foi a **erosão da margem de lucro**. Embora a empresa apresente um faturamento expressivo em meses de pico, a análise revelou um déficit operacional oculto em categorias core. O caso mais crítico é a categoria de **Propulsão**, onde produtos específicos operavam com um percentual de perda superior a 60%. Esse cenário indica que o volume de vendas estava, na verdade, acelerando o prejuízo acumulado em vez de gerar rentabilidade real.
 
 ## 📊 Sobre a Base de Dados
 O conjunto de dados utilizado neste projeto compreende o ecossistema de operações da LH Nautical, consolidando informações de diferentes fontes para uma visão 360º do negócio:
